@@ -1,0 +1,25 @@
+
+li{
+    all: unset;
+}
+
+body{
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+
+}
+
+.links{
+    display: flex;
+    gap: 10px
+    ;
+    
+  
+}
+
