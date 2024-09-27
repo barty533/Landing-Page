@@ -3,11 +3,20 @@ li{
     all: unset;
 }
 
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 10px;
+    font-weight: initial;
+}
+
 body{
     display: flex;
     flex-direction: column;
     margin: auto;
-    padding: ;
+      font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
     
     
 }
@@ -17,8 +26,11 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-inline: 85px;
+    color: #E5E7EB;
+    font-size: 15px;
+    font-weight: bold;
+    
    
 
 }
@@ -65,10 +77,12 @@ body{
 
 .container2{
     padding: 30px;
-    padding-inline: 100px;
+    padding-inline: 10px;
     display: flex;
     flex-direction: column;
     align-content: center;
+    text-align: center;
+   
     flex-wrap: wrap;
     
     
@@ -82,7 +96,10 @@ body{
 .boxes{
     display: flex;
     gap:20px;
-   
+    
+   flex-wrap:wrap;
+   align-content: center;
+   justify-content: center;
     
 }
 
@@ -91,6 +108,8 @@ body{
     
     display: flex;
     flex-direction: column;
+    
+    width: 104px;
     text-align: center;
     align-items: center;
 }
@@ -107,8 +126,9 @@ body{
 
 .quote{
     
-    width: 340px;
+    max-width: 340px;
     height: auto;
+   
 }
 
 .aut{
@@ -119,10 +139,11 @@ body{
 
 .container4{
     display: flex;
+    flex-wrap: wrap;
     margin: 70px;
     
-    height: 80px;
-    padding: 10px;
+    
+    padding: 40px;
     width: auto;
     padding-inline: 50px;
     font-size: smaller;
@@ -131,7 +152,9 @@ body{
     border-radius: 5px ;
     align-items: center ;
     justify-content: space-between;
+    
 }
+
 
 .foot{
     display: flex;
